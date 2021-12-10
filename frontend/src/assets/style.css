@@ -334,7 +334,7 @@ main
 
 .bgd img {
   width: 25em;
-  height: 15em;
+  height: 90%;
 }
 
 .bgd img:hover {
@@ -560,8 +560,8 @@ main yourbackground
 }
 
 .card img {
-  width: 500px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
 }
 
 .card .add-btn {
@@ -803,11 +803,19 @@ preview modal
     mix-blend-mode: normal;
   }
 
+  .flex-header .mb-0 span {
+    font-weight: 600;
+  }
+
   .flex-header .mb-0 p > span {
     font-weight: bold;
   }
 
   .flex-header .mb-1 div {
+    display: none;
+  }
+
+  .flex-header .mb-1 input.signin {
     display: none;
   }
 
@@ -967,7 +975,7 @@ preview modal
 
   .choose {
     font-size: 25px;
-    margin: 40px 0;
+    margin: 33px 0;
   }
 
   .choose p {
