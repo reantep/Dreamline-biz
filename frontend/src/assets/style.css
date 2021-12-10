@@ -501,6 +501,7 @@ main
   border-radius: 10px;
   color: #264f58;
   border: #264f58 2px solid;
+  padding-left: 10px;
 }
 
 .btn-add {
