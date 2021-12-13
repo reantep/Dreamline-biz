@@ -768,7 +768,7 @@ preview modal
 
 /***************************************** Mobile *******************************************/
 
-@media screen and (max-weidth: 300px){
+@media screen and (max-width: 300px){
   .try-now .make-image{
     font-size: none;
   }
