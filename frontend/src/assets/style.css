@@ -764,39 +764,33 @@ preview modal
   cursor: pointer;
 }
 
-
-
 /***************************************** Mobile *******************************************/
 
-@media screen and (max-width: 350px){
-  .try-now .make-image{
+@media screen and (max-width: 350px) {
+  .try-now .make-image {
     font-size: none;
   }
-  
+
   .main-1 .title {
-    font-size: 25px;
   }
-  
-  ,main-1 .description{
-    font-size: 15px;
+
+  .main-1 .description {
+    font-size: 14px;
+    width: 19em;
+    margin: 15px;
   }
-  
+
   .main-1 .generate {
     width: 12em;
   }
-  
+
   .try-now {
-    margin: 40px 25%;
   }
-  
+
   .main-1 .title {
     font-size: 27px;
   }
-  
-  .main-1 .description {
-    font-size: 15px;
-  }
-  
+
   .sign-up-2 input {
     width: 260px;
   }
@@ -816,8 +810,6 @@ preview modal
     padding: 0 15px;
     font-weight: 600;
   }
-  
-
 
   /***************************************** Index *******************************************
   /
@@ -859,10 +851,11 @@ preview modal
   .main-1 .title {
     width: 11em;
     margin: 20px;
+    font-size: 25px;
   }
 
   .main-1 .description {
-    font-size: 18px;
+    font-size: 14px;
     width: 19em;
     margin: 15px;
   }
@@ -956,7 +949,7 @@ preview modal
 
   .try-now {
     bottom: 3em;
-    margin: 40px 30%;
+    margin: 40px 25%;
   }
 
   .try-now .make-image {
