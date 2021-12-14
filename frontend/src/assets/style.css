@@ -768,7 +768,7 @@ preview modal
 
 /***************************************** Mobile *******************************************/
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 350px){
   .try-now .make-image{
     font-size: none;
   }
@@ -787,6 +787,18 @@ preview modal
   
   .try-now {
     margin: 40px 25%;
+  }
+  
+  .main-1 .title {
+    font-size: 27px;
+  }
+  
+  .main-1 .description {
+    font-size: 15px;
+  }
+  
+  .sign-up-2 input {
+    width: 260px;
   }
 }
 
