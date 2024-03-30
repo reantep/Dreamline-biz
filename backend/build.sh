@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # exit on error
 set -o errexit
+ 
+ .\myenv\Scripts\activate
 
 pip install -r requirements.txt
 
